@@ -1,5 +1,4 @@
-'''
-#student marks manage
+'''#student marks manage
 marks = []
 for i in range(3):
     mark = int(input("Enter mark: "))
