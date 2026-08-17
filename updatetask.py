@@ -7,10 +7,10 @@ for i in range(3):
 print('Original marks:',marks)
 marks.insert(0,90)
 print(marks)
-marks.extend([75,85])
+marks.extend([35,65])
 print(marks)
-if 75 in marks:
-    marks.remove(75)
+if 35 in marks:
+    marks.remove(35)
 remove=marks.pop()
 print("Removed value:", remove)
 print("Final list:", marks)
@@ -72,12 +72,12 @@ a=set(names)
 print(a)
 a.add('Meera')
 print('Added:',a)
-a.update(['Arun','priya'])
+a.update(['nithya','priya'])
 print('Updated:',a)
 if 'John' in names:
     a.remove('John')
     print('Removed:',a)
-a.discard('David')
+a.discard('baji')
 print('Discarded:',a)
 for i in names:
     print(i)
